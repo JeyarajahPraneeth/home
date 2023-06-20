@@ -1,0 +1,151 @@
+/* Define styles for the HTML element */
+html{
+	font-family: "Source Code Pro", monospace;
+	line-height: 16pt;
+	color: black;
+}
+
+/* Define styles for the unordered list with class "navbar" */
+ul.navbar{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #2FA974;
+	display: flex;
+	justify-content: center;
+}
+
+/* Define styles for the list items within the navbar */
+ul.navbar li{
+	float: none;
+}
+
+/* Define styles for the active page list item in the navbar */
+ul li.activepage{
+	background-color: #117D51;
+}
+
+/* Define styles for the links within the navbar */
+ul.navbar li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 13px 15px;
+	text-decoration: none;
+}
+
+/* Define styles for the links when hovered over */
+ul.navbar li a:hover{
+	background-color: #62DAA6;
+}
+
+/* Define styles for level 2 headings */
+h2{
+	color: #117D51;
+}
+
+/* Define styles for tables, table headers, and table rows */
+table, th, td {
+  border: 1px solid;
+}
+
+/* Define styles for the center page */
+.centerpage{
+    width: 1100px;
+    margin: 20px auto;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	background-color: #DBF3E9;
+}
+
+/* Define styles for images */
+img{
+	float: right;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+/* Define styles for alternate background sections */
+.alternateBackground{
+	background-color: #C8F0D8;
+}
+
+/* Define styles for the header section */
+header {
+	background-color: #C8F0D8;
+	border-top: 1px solid;
+	margin:0; 
+	padding:0;
+}
+
+/* Define styles for the footer section */
+footer {
+	background-color: black;
+	color: white;
+	border-bottom: 1px solid;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+/* Define styles for the body element */
+body {
+	margin: 0;
+}
+
+/* Define styles for the banner element */
+#banner {
+    background-image: url("images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 150px;
+    color: black;
+}
+
+/* Define styles for the button element */
+#button {
+    display: inline-block;
+    background-color: #2FA974;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+	text-decoration: none;
+}
+
+/* Define styles for elements with the class "resistance" */
+.resistance{
+	background-color: red;
+}
+
+/* Define styles for elements with the class "supereffective" */
+.supereffective{
+	background-color: green;
+}
+
+/* Define styles for elements with the class "immune" */
+.immune{
+	background-color: black;
+	color: white;
+}
+
+/* Define styles for images within elements with the class "validator" */
+.validator {
+	background-color: black;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Define styles for elements with the class "referencesItalic" */
+.referencesItalic {
+	font-style: italic;
+}
+
+/* Define styles for elements with the class "tab" */
+.tab { 
+	margin-left: 40px; 
+}
